@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import MemoryCard from './components/MemoryCard';
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
         <div className="Title">Memory Game</div>
         <div className="Subtitle">Match cards to win</div>
       </header>
+      <MemoryCard />
     </div>
   );
 }
